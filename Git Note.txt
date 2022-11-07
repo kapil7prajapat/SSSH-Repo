@@ -1,0 +1,112 @@
+-> to get repo we will clone or init using command in bash.
+
+*init
+"$ git init"   -> Use to initialize git repo and then you will get ".get" folder after this cammand.
+then create a html like html file then;
+Now
+to send unstaged file to staged then;
+"$ git add index.html"	 :: after enter it will now in stage
+to add all file form untracked to staged use below command
+$ git add -A
+
+@task.
+1. create html file named as "Test.html" and write code there and save it.
+2. now right now it is untracked in the vission of git.
+3. "$ git add Test.html" -> using this we can send this file to staging area.
+4. now we are going to commit it so swe use following command
+5. "$ git commit"
+********now thing's would be complex so first press "i"
+then write initial commit
+afterthen press Escpa bottton in key borad then ":wq" and enter
+
+Now suppose here is index.html
+	<html>
+		Hellow
+	</html>
+and this file is in the  staging are and now I'm edit this file.
+	<html>
+		Hello Kapil.
+	</html>
+
+now when I chaeck status using "$ git status"
+then It found that this file is in modifed state. wo we have to send it to staging area
+"$ git add index.html" 		-> this will send the file to staging area.
+
+As for now we successfully added files in staging area now we are going to commit it below.
+"$ git commit -m "Updated html" "
+
+-> now suppose that you update something and save it then the previous code you lose then belwo is solution.
+"$ git checkout index.html"  || "$ git checkout -f"  -> for all files.
+
+@GitLog :-> to know what did I commit.
+"$ git log"
+to know last 1 log then;
+"$ git log -p -1"
+@GitDiff :-> to compair working tree to staging area.
+$ git -A
+$ git diff
+Now to compaire staging area to last comment
+"git diff --staged"
+
+
+* How to remove file staged
+To remove from staged  	 :-> $git rm --cached fileName.extension 
+To remove from Dard Disk :-> $git rm fileName.extension
+
+
+* Branch 
+-> To create new Branch 
+"$ git branch1"
+
+-> To switch from mater to branch1
+"$ git checkout branch1"
+
+-> To switch from branch1 to mater 
+"$ git checkout master"
+
+-> to merge branch1 to master
+"$ git meger branch1"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
